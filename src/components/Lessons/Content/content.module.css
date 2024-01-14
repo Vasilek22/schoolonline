@@ -1,0 +1,9 @@
+.content {
+    flex: 1; /* Занимает оставшееся пространство */
+    background-color: #ffffff; /* Цвет фона навигационной панели */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px #ffffff96;
+    height: 100%; /* Занимает 100% высоты родительского контейнера */
+    overflow-y: auto; /* Добавляет вертикальный скролл при необходимости */
+}

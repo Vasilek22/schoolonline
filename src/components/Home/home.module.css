@@ -1,0 +1,133 @@
+.loadingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .loadingSpinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .home { 
+    height: 2000px;
+  }
+  .contentTitle{ 
+    text-align: center;
+    padding-top: 190px;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+  .contentDesc { 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .contentBtn { 
+    text-align: center;
+    margin-top: 60px;
+  }
+  .btnLink { 
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(141deg,#00C2FF,#030adf5d),linear-gradient(125deg,#3A0887,#5196FF);
+    border-radius: 13px;
+    padding: 15px 29px;
+  }
+  .btnLink:hover { 
+    background-color: #c423ff;
+    box-shadow: 0px 4px 20px 0px #c423ff;
+  }
+
+
+
+  .homeContentTwo { 
+    margin-top: 190px;
+  }
+  .homeContentTwoContainer { 
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .contentTwoTitle { 
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+  .contentTwoBlocks { 
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .contentTwoBlock { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 27px;
+    padding: 20px 30px;
+  }
+  .contentTwoBlockImg {
+    width: 60px;
+  }
+  .contentTwoBlockText {
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .contentTwoBigBlock { 
+    position: relative; 
+    z-index: -1;
+    height: 230px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 27px;
+    padding: 25px 40px;
+    margin-top: 30px;
+  }
+  .contentTwoBigBlockTitle {
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  .contentTwoBigBlockText { 
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .contentTwoBigBlockBtn { 
+    position: absolute;
+    bottom: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(141deg,#00C2FF,#030adf5d),linear-gradient(125deg,#3A0887,#5196FF);
+    border-radius: 13px;
+    padding: 15px 35px;
+    transition: background-color .13s ease-in-out, box-shadow .13s ease-in-out;
+  }
+  .contentTwoBigBlockBtn:hover { 
+    background-color: #c423ff;
+    box-shadow: 0px 4px 20px 0px #c423ff;
+  }

@@ -1,0 +1,97 @@
+/* profileButton.module.css */
+
+.profileButton {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px rgb(211, 211, 211) solid;
+    border-radius: 25px;
+  }
+  
+  .profileImg {
+    width: 35px;
+    border-radius: 50%;
+  }
+  
+  .profileSvg {
+    width: 14px;
+    margin-left: 17px;
+    margin-right: 7px;
+  }
+  
+  .dropdownContent {
+    width: 200px;
+    position: absolute;
+    top: 57px;
+    left: -78px; /* Расположение окна слева от профиля */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px 26px;
+    z-index: 1;
+  }
+  .dropdownInfo { 
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 1.5px rgb(231, 231, 231) solid;
+    padding-bottom: 15px;
+  }
+  .dropdownImg { 
+    width: 45px;
+    border-radius: 50%;
+  }
+  .dropdownName { 
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .profileItems { 
+    border-bottom: 1.5px rgb(231, 231, 231) solid;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .profileItemExit { 
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .profileExit { 
+    padding: 8px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    transition: background-color .08s ease-in-out;
+  }
+  .profileExit:hover { 
+    background-color: rgb(236, 236, 236);
+  }
+  .profileItem { 
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    transition: background-color .08s ease-in-out;
+  }
+  .profileItem:hover { 
+    background-color: rgb(236, 236, 236);
+  }
+  .itemImg { 
+    width: 25px;
+  }
+  .itemLink { 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  

@@ -1,0 +1,195 @@
+.subscription { 
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.container { 
+    max-width: 930px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.subscriptionLeft { 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.subscriptionRight { 
+    width: 36%; /* Ширина навигационной панели */
+}
+
+.subscriptionBlockOne, .subscriptionBlockPayment,
+.subscriptionBlockTwo, .subscriptionBlockThree { 
+    box-shadow: 0px 4px 20px 0px #ffffff80;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.subscriptionBlockTitle { 
+    font-size: 23px;
+    font-weight: 700;
+}
+.subscriptionBlockDesc { 
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(151, 151, 151);
+}
+.subscriptionBlockOneItems { 
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.subscriptionBlockOneItem { 
+    cursor: pointer;
+    border: 1px rgb(172, 172, 172) solid;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 23px;
+    transition: background-color .2s ease-in-out;
+}
+.subscriptionBlockOneItem:hover { 
+    background-color: rgb(226, 226, 226);
+}
+.selected {
+    border: 1px #00C2FF solid;
+    background-image: linear-gradient(141deg,#00C2FF,#030adf5d),linear-gradient(125deg,#3A0887,#5196FF);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color .2s ease-in-out;
+}
+
+
+.subscriptionBlockPayment { 
+    display: flex;
+    flex-direction: column;
+}
+.subscriptionBlockPaymentRate { 
+    font-size: 18px;
+    font-weight: 700;
+}
+.strong { 
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscriptionBlockPaymentInfos { 
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.subscriptionBlockPaymentInfo { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscriptionBlockPaymentInfoText { 
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscriptionBlockPaymentInfoPoint { 
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscriptionBlockPaymentInfoPrice { 
+    font-size: 18px;
+    font-weight: 700;
+}
+.subscriptionBlockPaymentBtn { 
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 25px;
+    border: 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(141deg,#00C2FF,#030adf5d),linear-gradient(125deg,#3A0887,#5196FF);
+    border-radius: 10px;
+    padding: 13px 15px;
+    width: 100%;
+}
+.subscriptionBlockPaymentBottomInfo { 
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.subscriptionBlockPaymentDesc { 
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+.subscriptionBlockPaymentLink { 
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #030adfdc;
+}
+
+.subscriptionBlockTwoItems { 
+    margin-top: 26px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscriptionBlockTwoItem { 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    border: 2px rgb(204, 204, 204) solid;
+    border-radius: 17px;
+    padding: 20px 24px;
+}
+.subscriptionBlockTwoItemInfo { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscriptionBlockTwoItemTitle { 
+    font-size: 17px;
+    font-weight: 700;
+}
+.subscriptionBlockTwoItemMark { 
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 204, 204);
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.subscriptionBlockTwoItemText { 
+    font-size: 16px;
+    font-weight: 500;
+}
+.selectedRate { 
+    border: 2px rgb(0, 81, 255) solid;
+    border-radius: 17px;
+    padding: 20px 24px;
+}
+.selectedMark { 
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 81, 255);
+}
+
+.subscriptionBlockThreeText { 
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.subscriptionBlockThreeInput { 
+    margin-top: 9px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 12px 9px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}

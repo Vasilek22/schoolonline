@@ -1,0 +1,156 @@
+.profile { 
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.profileBlockOne,
+.profileBlockTwo { 
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px #ffffffa6;
+    width: 590px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.BlockTitle { 
+    
+}
+.title { 
+    font-size: 22px;
+    font-weight: 700;
+}
+.BlockOneInfo { 
+    margin-top: 20px;
+}
+.BlockOneInfoContacts { 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.BlockOneInfoImg { 
+    width: 80px;
+    border-radius: 50%;
+}
+.BlockOneInfoDesc { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.BlockOneDescEmail,
+.BlockOneDescPhone { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.emailName,
+.phoneName {
+    font-size: 16px;
+    font-weight: 700;
+}
+.emailDesc,
+.phoneDesc{ 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.BlockOneInfoName { 
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.nameOne,
+.nameTwo { 
+
+}
+.nameOneTitle,
+.nameTwoTitle { 
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: rgb(66, 66, 66);
+}
+.nameOneInput,
+.nameTwoInput { 
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 11px 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nameBtns {
+    margin-top: auto; /* Установка верхнего отступа для блока кнопок */
+    display: flex;
+    justify-content: space-between;
+
+}
+.nameBtn { 
+    font-family: 'Nunito', sans-serif;
+    border: 0;
+    background-image: linear-gradient(141deg,#00C2FF,#030adf5d),linear-gradient(125deg,#3A0887,#5196FF);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 24px;
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.nameBtn:hover { 
+    background-image: linear-gradient(141deg,#00C2FF,#030adf5d),linear-gradient(125deg,#3A0887,#5196FF);
+}
+
+
+.blockTwoTitle { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.podpiska {
+    user-select: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+    background: #4BCE35;
+    box-shadow: 0px 4px 20px 0px rgba(0, 255, 26, 0.753);
+    padding: 7px 20px;
+}
+.podpiskaNone { 
+    user-select: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+    background: #d83b26;
+    box-shadow: 0px 4px 20px 0px #d83b26;
+    padding: 7px 20px;
+}
+.blockTwoTarif { 
+    margin-top: 20px;
+}
+.tarifText { 
+    font-size: 18px;
+    font-weight: 600;
+}
+.blockTwoItems { 
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.item { 
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+.error { 
+    position: absolute;
+    font-size: 15px;
+    color: rgb(230, 29, 29);
+    font-weight: 700;
+    margin-top: 5px;
+}
