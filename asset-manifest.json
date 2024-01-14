@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/schoolonline/static/css/main.743c0587.css",
+    "main.js": "/schoolonline/static/js/main.5dafaf34.js",
+    "static/media/ob.png": "/schoolonline/static/media/ob.adbe499a3dd7a91edf0c.png",
+    "static/media/math.png": "/schoolonline/static/media/math.cb92c137539e8fdb0594.png",
+    "static/media/rus.png": "/schoolonline/static/media/rus.4475eb1de3da31ec93f7.png",
+    "static/media/profile.svg": "/schoolonline/static/media/profile.a946d096ee170dbedf13659d4accd5d6.svg",
+    "static/media/darts.svg": "/schoolonline/static/media/darts.e6cb6973b6a981083d3c013fbc996f62.svg",
+    "static/media/wallet.svg": "/schoolonline/static/media/wallet.9c3f02c4619f92900961438a654d4c47.svg",
+    "static/media/auth.svg": "/schoolonline/static/media/auth.6533e39d0edcb35904eaeb1853ae0abd.svg",
+    "static/media/molniya.svg": "/schoolonline/static/media/molniya.665e40b87979c297c74eda79ef8f95c1.svg",
+    "static/media/exit.svg": "/schoolonline/static/media/exit.ad32d4ffabb0200dfb7d70ebd0453dc2.svg",
+    "index.html": "/schoolonline/index.html",
+    "static/media/gl.svg": "/schoolonline/static/media/gl.ca6c035c724e2777cc6b9b161395d77f.svg",
+    "main.743c0587.css.map": "/schoolonline/static/css/main.743c0587.css.map",
+    "main.5dafaf34.js.map": "/schoolonline/static/js/main.5dafaf34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743c0587.css",
+    "static/js/main.5dafaf34.js"
+  ]
+}
